@@ -3,14 +3,5 @@ module.exports = {
     title: "Full-Stack Bootcamp",
     author: "Cesar Murillo",
   },
-  plugins: [
-    "gatsby-plugin-sass",
-    {
-      resolve: "gatsby-source-filesystem",
-      options: {
-        name: "src",
-        path: `${__dirname}/src/`,
-      },
-    },
-  ],
+  plugins: ["gatsby-plugin-sass"],
 }
